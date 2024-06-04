@@ -1,0 +1,68 @@
+/* styles.css */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-image:url(https://tse1.mm.bing.net/th?id=OIP.P9Nw_HxKNIa8S_wxdjbF5AHaEK&pid=Api&P=0&h=180);
+}
+
+.head{
+    background-color: black;
+    background-size: cover;
+    font-size: 25px;
+    text-align: left;
+    padding: 15px;
+    font-family: "Ubuntu", sans-serif;
+}
+
+.game-container {
+    text-align: center;
+}
+
+.board {
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    grid-template-rows: repeat(3, 100px);
+    gap: 5px;
+    margin-bottom: 20px;
+}
+
+.cell {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(108, 245, 245);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2em;
+    cursor: pointer;
+    border: 1px solid black;
+}
+
+.cell:hover {
+    background-color: rgb(247, 196, 247);
+}
+
+.status {
+    margin-bottom: 20px;
+    font-size: 1.2em;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 1em;
+    background-color: whitesmoke;
+    color: red;
+    font-size: 25px;
+    letter-spacing: 2px;
+    text-shadow: 1px 1px 2px white, 0 0 25px blue, 0 0 5px darkblue;
+}
+.heading{
+    font-size: 50px;
+    font-weight: bold;
+    color: orangered;
+    text-shadow: 1px 1px 2px white, 0 0 25px orange, 0 0 5px darkorange;
+}
